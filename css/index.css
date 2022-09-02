@@ -17,9 +17,10 @@ header {
 #simbolo {
     font-family: 'Alumni Sans', sans-serif;
     font-size: 70px;
+    position: relative;
 }
 
-#simbolo > a {
+#simbolo a {
     color: #ffffff;
 }
 
@@ -29,10 +30,30 @@ header {
     background-color: rgba(0, 255, 255, 0);
     height: 70px;
     width: 70px;
-    box-shadow: inset #0025aa7e 0 -35px 15px;
+    box-shadow: inset #0025aaa9 0 -30px 15px;
 }
 
 a {
     text-decoration: none;
-
 }
+
+#logotipo {
+    font-size: 90px;
+    font-family: 'Alumni Sans', sans-serif;
+    width: 500px;
+    height: 100px;
+}
+
+#logotipo a {
+    color: white;
+}
+
+#shadow-logotipo {
+    background-color: 0025aa;
+    width: 337px;
+    height: 100px;
+    position: relative;
+    top: -100px;
+    box-shadow: inset #0025aab4 0px -45px 18px 0px;
+}
+
