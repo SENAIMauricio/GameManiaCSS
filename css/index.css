@@ -1,5 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans:wght@700&family=Inter&display=swap');
+
 body {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
+
+#azul-escuro {
+    background-color: #0025AA;
+    width: 1777px;
+    height: 965px;
+    padding: 0;
+}
+
+#azul-claro {
+    background-color: #0094FF;
+    width: 100%;
+    height:775px;
+    margin: 0;
+    position: relative;
+    top: 95px;   
+
+}
+
+#azul-escuro #azul-claro .titulo-vermelho {
+    font-family: 'Inter', sans-serif;
+    font-size: 40pt;
+    color: white;
+    background-color: #EC3219;
+    width: 60%;
+    height: 120px;
+    border: 5px solid black;
+    position: relative;
+    top: -60px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.titulo-vermelho {
+    font-family: 'Inter', sans-serif;
+    font-size: 40pt;
+    color: white;
+    background-color: #EC3219;
+    width: 60%;
+    height: 164px;
+    border: 5px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    position: relative;
+    top: 50px;
+}
+
+.flex-container span {
+    width: 33.3%;
+    border: 2px solid black;
+    font-size: 30pt;
+    font-family: 'Inter', sans-serif;
+    text-transform:uppercase;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-container a {
+    text-decoration: none;
+    color: white;
+    text-align: center;
+}
+
+.flex-container a:hover{
+    color: #EC3219; 
+    font-size: 40pt;
+}
+
+.flex-container .border-cima {
+    border-top: 4px solid black;
+}
+
+.flex-container .border-baixo {
+    border-bottom: 4px solid black;
+}
+
