@@ -4,6 +4,7 @@ body {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    height: 800px;
 }
 
 header {
@@ -20,23 +21,30 @@ header {
     font-size: 70pt;
     position: relative;
     left: 50px;
-    top: 17px;
+    top: 7px;
 }
 
 #simbolo a {
     color: #ffffff;
+    text-decoration: none;
 }
 
 #shadow-simbolo {
     position: relative;
-    top: -90px;
+    top: -105px;
     height: 70px;
     width: 90px;
     box-shadow: inset #0025aaa9 0 -30px 15px;
+
 }
 
-a {
+nav div a {
     text-decoration: none;
+}
+
+nav div a:hover {
+    color: #0025AA;
+    font-weight: 600;
 }
 
 #logotipo {
@@ -46,18 +54,20 @@ a {
     height: 100px;
     position: relative;
     left: 550px;
-    top: -10px;
+    top: -7px;
 }
 
 #logotipo a {
     color: white;
+    text-decoration: none;
 }
+
 
 #shadow-logotipo {
     width: 453px;
     height: 100px;
     position: relative;
-    top: -120px;
+    top: -135px;
     box-shadow: inset #0025aab4 0px -45px 18px 0px;
 }
 
@@ -121,6 +131,7 @@ nav input::placeholder{
     width: 1777px;
     height: 965px;
     padding: 0;
+    margin-top: 50px;
 }
 
 #azul-claro {
@@ -189,7 +200,7 @@ nav input::placeholder{
 }
 
 .fonte-menor {
-    font-size: 10pt;
+    font-size: 10.1pt;
 }
 
 #top-right-box {
@@ -209,6 +220,7 @@ nav input::placeholder{
     font-family: 'Inter', sans-serif;
     font-weight: 600;
     font-size: 18pt;
+    text-decoration: none;
     
 }
 
@@ -250,12 +262,14 @@ nav input::placeholder{
     border-bottom: 4px solid black;
 }
 
-img.imagem-pequena {
+a  img.imagem-pequena {
     padding: 0;
     margin: 0;
-    width: 45%;
+    width: 90%;
     height: 561;
 }
+
+
 
 div#flex-container-img {
     display: flex;
@@ -267,6 +281,11 @@ div#flex-container-img {
     margin: auto;
     top: 40px;
     height: 120px;
+}
+
+#section-promocao {
+    position: relative;
+    top: -40px;
 }
 
 #promocao .titulo-vermelho {
@@ -282,7 +301,7 @@ div#flex-container-img {
     width: 100%;
 }
 .parent-footer {
-    background-color: rgba(0, 37, 170, 0.9);
+    background-color: rgba(0, 37, 170, 0.797);
     display: flex;
 
 }
@@ -350,3 +369,32 @@ hr.hr {
     color: white;
 }
 
+.fundo-footer {
+    background-color: #051653;
+    width: 100%;
+    height: 960px;
+    position: relative;
+    top: -959px;
+    z-index: -1;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    height: 100%;
+}
+
+footer {
+    height: 900px;
+    position: relative;
+    top: 1345px;
+}
+
+#fundo-preto {
+    position: relative;
+    top: -2200px;
+    width: 100%;
+    height: 2200px;
+    background-color: rgb(0, 0, 0);
+    z-index: -1;
+}
