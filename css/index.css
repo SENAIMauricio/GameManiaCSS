@@ -174,12 +174,13 @@ nav input::placeholder{
 }
 
 .flex-container {
-    width: 100%;
+    width: 100.1%;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     position: relative;
     top: 50px;
+    left: 0px
 }
 
 .flex-container span {
@@ -290,7 +291,7 @@ div#flex-container-img {
 
 #promocao .titulo-vermelho {
     text-transform: uppercase;
-    font-size: 30pt;
+    font-size: 24pt;
     text-align: center;
     margin: auto;
     position: relative;
@@ -398,3 +399,5 @@ footer {
     background-color: rgb(0, 0, 0);
     z-index: -1;
 }
+
+
